@@ -1,6 +1,8 @@
 import styles from './Sect4.module.css'
 import OrderComponent from '../../common/OrderComponent/OrderComponent.jsx'
-
+import apple from '../../../assets/apple.png'
+import google from '../../../assets/google.png'
+import sect4Image from '../../../assets/sect4.png'
 
 function Sect4() {
   return (
@@ -17,14 +19,14 @@ function Sect4() {
                 <OrderComponent steps={['Select Your Food', 'Add To Cart', 'Order Your Food']} />
                 <div className={`d-flex gap-3 ${styles.appGroup}`} role="group" aria-label="Get app">
                     <button className={`d-flex align-items-center justify-content-center gap-2 ${styles.appBtn}`}>
-                        <img src="/IceCream/src/assets/apple.png" alt="apple" />
+                        <img src={apple} alt="apple" />
                         <div className={`d-flex flex-column align-items-start ${styles.appText}`}>
                             <span className={`${styles.appSub}`}>Download on the</span>
                             <span className={`${styles.appTitle}`}>App Store</span>
                         </div>
                     </button>
                     <button className={`d-flex align-items-center justify-content-center gap-2 ${styles.appBtn}`}>
-                        <img src="/IceCream/src/assets/google.png" alt="google" />
+                        <img src={google} alt="google" />
                         <div className={`d-flex flex-column align-items-start ${styles.appText}`}>
                             <span className={`${styles.appSub}`}>Get it on</span>
                             <span className={`${styles.appTitle}`}>Play Store</span>
@@ -32,7 +34,7 @@ function Sect4() {
                     </button>
                 </div>
             </div>
-            <img className={`col-7`} src="/IceCream/src/assets/sect4.png" alt="sect4" />
+            <img className={`col-7`} src={sect4Image} alt="sect4" />
         </section>
     </>
   )

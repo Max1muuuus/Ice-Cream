@@ -1,4 +1,7 @@
 import styles from "./Sect2.module.css";
+import pistachio from '../../../assets/pistachio.png'
+import strawberry from '../../../assets/strawberry.png'
+import milk from '../../../assets/milk.png'
 
 function Sect2() {
   return (
@@ -23,19 +26,19 @@ function Sect2() {
             <img
               className={`position-absolute z-2`}
               style={{ right: "120px", top: "-60px" }}
-              src="/IceCream/src/assets/pistachio.png"
+              src={pistachio}
               alt="pistachio"
             />
             <img
               className={`position-absolute z-2`}
               style={{ right: "534px", bottom: "0" }}
-              src="/IceCream/src/assets/strawberry.png"
+              src={strawberry}
               alt="strawberry"
             />
             <img
               className={`position-absolute z-2`}
               style={{ left: "33px", bottom: "85px" }}
-              src="/IceCream/src/assets/milk.png"
+              src={milk}
               alt="milk"
             />
           </p>

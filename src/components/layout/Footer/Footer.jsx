@@ -1,5 +1,9 @@
 import styles from './Footer.module.css'
-
+import logo from '../../../assets/logo.png'
+import instagram from '../../../assets/instagram.png'
+import facebook from '../../../assets/facebook.png'
+import twitter from '../../../assets/twitter.png'
+import youtube from '../../../assets/youtube.png'
 
 function Footer() {
   return (
@@ -7,17 +11,17 @@ function Footer() {
         <footer className={`${styles.footerBase} container-fluid d-flex align-items-center justify-content-center col-12 gap-3`} role="group" aria-label="Have Question">
             <div className={`d-flex col-12 gap-5 ${styles.spBtw}`}>
                 <div>
-                    <img className={`${styles.logo}`} src="/IceCream/src/assets/logo.png" alt="Logo" />
+                    <img className={`${styles.logo}`} src={logo} alt="Logo" />
                     <p className={`text-center ${styles.textFooter}`}>
                         Some food has looked so awful<br />
                         that it's looked like something<br />
                         that the dog's brought home.
                     </p>
                     <div className={`d-flex gap-3`} role="group" aria-label="Social media links">
-                        <button className={`${styles.mediaBtn}`}><img src="/IceCream/src/assets/instagram.png" alt="Instagram" /></button>
-                        <button className={`${styles.mediaBtn}`}><img src="/IceCream/src/assets/facebook.png" alt="Facebook" /></button>
-                        <button className={`${styles.mediaBtn}`}><img src="/IceCream/src/assets/twitter.png" alt="Twitter" /></button>
-                        <button className={`${styles.mediaBtn}`}><img src="/IceCream/src/assets/youtube.png" alt="YouTube" /></button>
+                        <button className={`${styles.mediaBtn}`}><img src={instagram} alt="Instagram" /></button>
+                        <button className={`${styles.mediaBtn}`}><img src={facebook} alt="Facebook" /></button>
+                        <button className={`${styles.mediaBtn}`}><img src={twitter} alt="Twitter" /></button>
+                        <button className={`${styles.mediaBtn}`}><img src={youtube} alt="YouTube" /></button>
                     </div>
                 </div>
                 <div className='d-flex gap-3 flex-column'>

@@ -1,4 +1,5 @@
 import styles from "./Sect1.module.css";
+import sect1Image from '../../../assets/sect1-img.png'
 
 function Sect1() {
   return (
@@ -28,7 +29,7 @@ function Sect1() {
             Buy Now
           </button>
         </div>
-        <img className={`col-6`} src="/IceCream/src/assets/sect1-img.png" alt="IMG" />
+        <img className={`col-6`} src={sect1Image} alt="IMG" />
       </section>
     </>
   );
