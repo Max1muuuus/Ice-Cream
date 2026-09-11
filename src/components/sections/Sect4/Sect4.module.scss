@@ -1,0 +1,50 @@
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 930px;
+}
+
+.title{
+    font-family: "Alexandria", sans-serif;
+    font-weight: 400;
+    font-size: 57.33px;
+    color: var(--text-primary);
+}
+.highlight{
+    color: var(--accent-dark);
+}
+
+.text{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--bg-secondary);
+}
+
+.appBtn{
+    border: solid 2px var(--text-main);
+    border-radius: 9px;
+    background-color: transparent;
+    width: 170px;
+    height: 65px;
+    transition: all 0.4s ease;
+    &:hover{
+        transform: translateY(-2px);
+        border: solid 2px var(--bg-secondary);
+    }
+}
+
+.appSub{
+    color: var(--text-main);
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.appTitle{
+    color: var(--text-main);
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}

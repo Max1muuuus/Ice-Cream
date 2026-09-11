@@ -1,0 +1,57 @@
+.section5{
+    height: 690px;
+}
+
+.title{
+    font-family: "Alexandria", sans-serif;
+    font-weight: 400;
+    font-size: 57.33px;
+    color: var(--text-primary);
+}
+.highlight{
+    color: var(--accent-dark);
+}
+
+.inputGroup{
+    position: relative;
+    width: 637px;
+}
+
+.inputQuestion{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 100px;
+    border: 2px solid var(--bg-secondary);
+    background-color: transparent;
+    &::placeholder{
+        color: var(--bg-secondary);
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.sendButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    color: var(--text-main);
+    background-color: var(--accent);
+    border: none;
+    transition: background-color 0.3s ease;
+    &:hover{
+        background-color: var(--accent-dark);
+    }
+}

@@ -1,0 +1,62 @@
+.card{
+    border-radius: 20px;
+    height: 520px;
+    width: 297px;
+    transition: transform 0.8s ease !important;
+}
+
+.cardInfo{
+    box-shadow: inset 4px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #151515;
+    border-radius: 20px;
+    transform: translateY(-20px);
+    padding: 24px 30px;
+}
+
+.cardTitle{
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--text-main);
+}
+
+.cardText{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--bg-secondary);
+}
+
+.currentPrice{
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--text-main);
+}
+
+.lastPrice{
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--bg-secondary);
+}
+
+.cardBtn{
+    width: 237px;
+    height: 49px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-main);
+    background-color: var(--accent);
+    border: none;
+    border-radius: 5px;
+
+
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+
+    &:hover{
+        background-color: var(--accent-dark) !important;
+        transform: translateY(-2px);
+    }
+}
