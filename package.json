@@ -28,5 +28,8 @@
     "globals": "^17.11.0",
     "vite": "^8.2.2"
   },
-  "homepage": "https://Max1muuuus.github.io/IceCream/"
+  "homepage": "https://Max1muuuus.github.io/Ice-Cream/",
+  "vite": {
+    "base": "/Ice-Cream/"
+  }
 }
